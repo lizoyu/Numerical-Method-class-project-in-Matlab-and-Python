@@ -5,9 +5,22 @@
 
 This is the collection of class projects on Numerical Methods.
 
-The teaching material used in class and reference is Numerical Methods for Engineers Sixth Edition
+The teaching material used in class and reference is "Numerical Methods for Engineers Sixth Edition"
 by Steven C. Chapra and Raymond P. Canale.
 
 There are eight class projects, where .m files for Matlab and .py files for Python.
 
-Detailed description of each project is included in each project.
+Detailed description of each project is included in each .m file, while .py files have no description
+contained. 
+
+The Algorithm of each project in Matlab and Python are mostly the same, except for project No.5
+and No.8.
+
+In No.5, while Matlab have 'syms' function to specify an unknown h in g(h) and solve h when g'(h)=0, 
+in Python it's achieved by firstly calculate the coefficient of h^2 and h by hand, and create the
+coefficient array for g(h) and g(h)', then when g'(h) = 0, h can be solved by division of two 
+coefficients.
+
+In No.8, the mouse-click capture of coordinates of the outline of a hand can be easily achieved in
+Matlab, while in Python it required much more efforts to realize. Therefore, in Python we read files
+of coordinates instead of building a figure for mouse-click capture.
